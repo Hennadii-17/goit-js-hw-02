@@ -1,4 +1,4 @@
-function makeTransaction(quantity, pricePerDroid, castomerCredits) {
+function makeTransaction(quantity, pricePerDroid, customerCredits) {
     const totalPrice = quantity * pricePerDroid;
     if (totalPrice > castomerCredits) {
         return "Insufficient funds!";
